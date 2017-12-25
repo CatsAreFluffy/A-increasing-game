@@ -31,10 +31,15 @@ setInterval(function(){
 	}
 },1000)
 </script>
+<style>
+.important {
+	font-size:24px; vertical-align: middle;
+}
+</style>
 </head>
 <body>
-<div>You have <span id="number" style='font-size:24px; vertical-align: middle'>10</span> points.</div>
-<div>You are getting <span id="income" style='font-size:24px; vertical-align: middle'>0</span> points per second.</div>
+<div>You have <span id="number" class="important">10</span> points.</div>
+<div>You are getting <span id="income" class="important">0</span> points per second.</div>
 <button onclick="buy(1)" id="b1">First generator<br>Cost: <span id="c1">10</span><br>Amount: <span id="a1">0</span></button>
 <button onclick="buy(2)" id="b2">Second generator<br>Cost: <span id="c2">100</span><br>Amount: <span id="a2">0</span></button>
 <button onclick="buy(3)" id="b3">Third generator<br>Cost: <span id="c3">500</span><br>Amount: <span id="a3">0</span></button>
